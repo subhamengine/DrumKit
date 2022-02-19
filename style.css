@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 100;
+    background-image: url(./assets/party.jpg);
+    justify-content: center;
+    flex-direction: column;
+}
+.keys{
+    width: 95vw;
+    height: 20vh;
+    margin-top: 250px;
+    display: flex;
+}
+.key{
+    border: 2px solid rgb(121, 70, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 11%;
+    margin: 0px 9px 0px 9px;
+    transition: all 0.25s ease;
+}
+p{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(182, 7, 7);
+}
+span{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.key p:hover{
+    font-size: 60px;
+}
+.play{
+    transform: scale(1.1);
+    border-color: gold;
+    box-shadow: 0 0 1rem #ffc660;
+}
+a{
+    color: black;
+    margin-top: 220px;
+}

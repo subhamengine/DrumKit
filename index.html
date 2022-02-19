@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrumKit</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="keys">
+        <div class="key" data-key="65" onclick="playOnClick('65')">
+            <p><b>A</b></p>
+            <span>clap</span>
+        </div>
+        <div class="key" data-key="83"onclick="playOnClick('83')">
+            <p><b>S</b></p>
+            <span>Hithat</span>
+        </div>
+        <div class="key" data-key="68"onclick="playOnClick('68')">
+            <p><b>D</b></p>
+            <span>Kick</span>
+        </div>
+        <div class="key" data-key="70"onclick="playOnClick('70')">
+            <p><b>F</b></p>
+            <span>Openhat</span>
+        </div>
+        <div class="key" data-key="71"onclick="playOnClick('71')">
+            <p><b>G</b></p>
+            <span>Boom</span>
+        </div>
+        <div class="key" data-key="72"onclick="playOnClick('72')">
+            <p><b>H</b></p>
+            <span>Ride</span>
+        </div>
+        <div class="key" data-key="74"onclick="playOnClick('74')">
+            <p><b>J</b></p>
+            <span>Snare</span>
+        </div>
+        <div class="key" data-key="75"onclick="playOnClick('75')">
+            <p><b>K</b></p>
+            <span>Tom</span>
+        </div>
+        <div class="key" data-key="76"onclick="playOnClick('76')">
+            <p><b>L</b></p>
+            <span>Tink</span>
+        </div>
+    </div>
+    <audio data-key="71" src="./sound/boom.wav"></audio>
+    <audio data-key="76" src="./sound/tink.wav"></audio>
+    <audio data-key="75" src="./sound/tom.wav"></audio>
+    <audio data-key="74" src="./sound/snare.wav"></audio>
+    <audio data-key="72" src="./sound/ride.wav"></audio>
+    <audio data-key="70" src="./sound/openhat.wav"></audio>
+    <audio data-key="68" src="./sound/kick.wav"></audio>
+    <audio data-key="83" src="./sound/hihat.wav"></audio>
+    <audio data-key="65" src="./sound/clap.wav"></audio>
+    <script src="script.js"></script>
+    <a href="https://www.linkedin.com/in/subhamengine/" target="_blank">Made by Subham Sharma</a>
+</body>
+</html>
